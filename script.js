@@ -37,3 +37,7 @@ async function checkWeather(city) {
 searchBtn.addEventListener('click', () => {
     checkWeather(searchBox.value);
 })
+document.querySelector('.cityDropdown').addEventListener('change', () => {
+    const selectedCity = document.querySelector('.cityDropdown').value;
+    checkWeather(selectedCity);
+});
