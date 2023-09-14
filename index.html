@@ -8,8 +8,41 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="header">
+        <h1 class="title">Weather App</h1>
+    </header>
     <div class="card">
+       
         <div class="search">
+            <select class="cityDropdown">
+                <option value="" disabled selected>Choose a city</option>
+                <option value="Amsterdam">Amsterdam</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Edinburgh">Edinburgh</option>
+                <option value="Frankfurt">Frankfurt</option>
+                <option value="Geneva">Geneva</option>
+                <option value="Helsinki">Helsinki</option>
+                <option value="Istanbul">Istanbul</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Kuala Lumpur">Kuala Lumpur</option>
+                <option value="London">London</option>
+                <option value="Madrid">Madrid</option>
+                <option value="New York">New York</option>
+                <option value="Oslo">Oslo</option>
+                <option value="Paris">Paris</option>
+                <option value="Quebec">Quebec</option>
+                <option value="Rome">Rome</option>
+                <option value="San Francisco">San Francisco</option>
+                <option value="Tokyo">Tokyo</option>
+                <option value="Vienna">Vienna</option>
+                <option value="Warsaw">Warsaw</option>
+                <option value="Xian">Xian</option>
+                <option value="Yerevan">Yerevan</option>
+                <option value="Zagreb">Zagreb</option>
+            </select>
+            
             <input type="text" placeholder="Enter City Name" spellcheck="false">
             <button><img src="search.png" alt="search icon"></button>
         </div>
@@ -38,6 +71,9 @@
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <p>&copy; 2023 Weather App by Hamza</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
